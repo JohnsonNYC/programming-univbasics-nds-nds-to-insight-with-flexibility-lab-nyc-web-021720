@@ -54,6 +54,7 @@ def movies_with_director_key(name, movies_collection)
   
     while index < movies_collection.length do 
       result << movie_with_director_name(name, movie_data)
+      i += 1 
   end 
 end
 
